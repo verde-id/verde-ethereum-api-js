@@ -1,5 +1,5 @@
 {
-  "name": "verde-api-js",
+  "name": "verde-ethereum-api-js",
   "version": "0.0.1",
   "description": "NDID Platform API (JavaScript)",
   "main": "",
@@ -8,8 +8,11 @@
     "start": "npm run build && node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "WS3",
   "license": "MIT",
+  "dependencies": {
+    "verde-ethereum": "git+https://github.com/verde-id/verde-ethereum.git#eed75f5c220aebbfdf2623e2c4615bbaa7862313"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.2",

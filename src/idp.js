@@ -6,7 +6,7 @@ export const registerAuthenticationRequestCallbackUrl = (callbackUrl) => {
 
 };
 
-export const getAuthenticationResponse = () => {
+export const authenticationResponse = () => {
 
 };
 
