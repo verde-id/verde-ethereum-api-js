@@ -1,6 +1,8 @@
-///////////
+import { rpInterface } from 'verde-ethereum/lib/interface_lib';
+
+//////////
 // Main //
-///////////
+//////////
 
 /**
  * Send consent request to a given identifier
@@ -45,6 +47,7 @@ export const sendRequestToIdAtIdpAsync = (idpList, identifier, requestMessage, c
 
 };
 
+// previously: checkRequestStatus
 export const getRequestStatus = (requestId) => {
 
 };

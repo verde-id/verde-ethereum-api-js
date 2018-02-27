@@ -1,12 +1,13 @@
-///////////
+//////////
 // Main //
-///////////
+//////////
 
 export const registerAuthenticationRequestCallbackUrl = (callbackUrl) => {
 
 };
 
-export const authenticationResponse = () => {
+// previously: authenticationResponse
+export const responseToAuthenticationRequest = (requestId, identifier, status, loa) => {
 
 };
 

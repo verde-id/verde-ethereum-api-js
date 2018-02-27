@@ -1,12 +1,12 @@
-///////////
+//////////
 // Main //
-///////////
+//////////
 
 export const registerService = (serviceId, minLoa, callbackUrl) => {
 
 };
 
-export const dataResponse = () => {
+export const responseToDataRequest = (requestId, identifier, data) => {
 
 };
 
